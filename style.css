@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-weight:900;
+    margin-top: -400px;
+    
+}
+
+.image{
+    margin-top: 200px;
+    height: 400px;
+}
+
+.row{
+    
+    width: 100%;
+}
+
+
+
+
+.row2 {
+    height:200px
+}
+
+.col-md-6{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+.col-4 p{
+    font-weight:350;
+    font-size: 13px;
+}
+.footer{
+    padding: 50px;
+    font-size: 13px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.link a:hover{
+    text-decoration: underline;
+    color:#ED2726;
+}
+
+p a{
+    text-decoration:none;
+    color: black;
+}
+
+p a:hover{
+    text-decoration:underline;
+    color:#ED2726;
+}
+.icon ul{
+    font-size:20px;
+    
+}
+
+.content{
+    margin-top: 300px;
+    z-index: 1;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+}
+#navbarSupportedContent ul li a:hover{
+    color:#ED2726;
+}
+span{
+    color: white;
+}
+
+.navbar{
+    background-color: #0A0B27;
+    height: 70px;
+}
+
+
+@media (max-width:990px) 
+{
+    .fimg{
+        margin-top: 50px;
+    }
+    .anim{
+height: 220px;
+margin-top: 110px;
+margin-left: 70px;
+    }
+    .appy{
+        margin-right: 100px;
+        margin-top: -400px;
+    }}
+
+
+
+
+
+.navbar-list{
+    background-color: #0A0B27;
+}
+
+.bar-container{
+    padding: 0px;
+}
+.dropdown-menu{
+    background-color:#ED2726;
+}
